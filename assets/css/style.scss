@@ -21,6 +21,7 @@ html {
 }
 
 body {
+  background-color: var(--color-secondary-light);
   font-family: var(--ff-primary);
   display: flex;
   flex-direction: column;
@@ -36,11 +37,6 @@ button {
   padding: 0.5rem 1rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-}
-
-/*  || Backgrounds  */
-.bg-primary-light {
-  background-color: var(--color-primary-light);
 }
 
 /*  || Chat wrapper stylings */
